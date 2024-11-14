@@ -88,11 +88,11 @@ const Remover: React.FC = () => {
                 </form>
                 
             </div>
-            <div className="bg-red-200 p-4 w-[1134px] flex flex-col justify-center items-center relative">
+            <div className="bg-gray-900 p-4 w-[1134px] flex flex-col justify-center items-center relative">
     {finalUrl ? (
         <>
             <a href={finalUrl} download="Removed Background.png">
-                <button className="absolute top-4 right-4 flex items-center bg-blue-500 text-white px-4 py-2 rounded">
+                <button className="absolute top-4 right-4 flex items-center bg-purple-500 text-white px-4 py-2 rounded">
                     Download 
                     <div className="px-2">
                         <FaFileDownload />
